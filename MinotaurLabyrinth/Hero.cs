@@ -28,6 +28,7 @@
 
         // Explains why a player died.
         public string CauseOfDeath { get; private set; } = "";
+        public bool HasGun { get; internal set; }
 
         public void Kill(string cause)
         {
